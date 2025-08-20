@@ -1,0 +1,6 @@
+@ThaiCustomsOcrApi_HostAddress = http://localhost:5288
+
+GET {{ThaiCustomsOcrApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -27,7 +27,7 @@ namespace OcrApi.Controllers
         [ProducesResponseType(typeof(OcrResponse), 200)]
         [ProducesResponseType(typeof(string), 400)]
         [ProducesResponseType(typeof(string), 500)]
-        public async Task<ActionResult<OcrResponse>> UploadFile([FromForm] IFormFile file)
+        public async Task<ActionResult<OcrResponse>> UploadFile(IFormFile file)
         {
             try
             {
